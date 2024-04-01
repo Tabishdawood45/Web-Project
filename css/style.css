@@ -5,8 +5,17 @@ body {
     padding: 0;
     overflow: hidden;
 }
+
+.videos-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 video {
-    position: fixed;
+    position: relative;
     top: 30px;
     left: 30px;
     right: 30px;
@@ -14,17 +23,21 @@ video {
     height: 95%;
     object-fit: cover;
     z-index: -1;
+    margin-bottom: 100px;
+    padding: 0px 0px 200px 0px;
 }
 
 /* Login, shop and logo */
 .buttons-container {
     position: absolute;
-    top: 18px;
+    top: 20px;
     right: 15px;
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    list-style-type: none;
 }
-.login-button, .shop-button {
+
+.login-button, .shop-button, .about-button, .home-button {
     background-color: #0e1626;
     color: #ffffff;
     padding: 6px 20px;
@@ -32,6 +45,7 @@ video {
     border-radius: 11px;
     cursor: pointer;
     backdrop-filter: blur(1000px);
+    text-decoration: none;
 }
 .logo {
     position: absolute;
