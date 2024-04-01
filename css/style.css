@@ -1,5 +1,6 @@
 /* Video background */
 body {
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -21,14 +22,16 @@ video {
     top: 18px;
     right: 15px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 .login-button, .shop-button {
-    background-color: #0f2246;
+    background-color: #0e1626;
     color: #ffffff;
     padding: 6px 20px;
     border: none;
+    border-radius: 11px;
     cursor: pointer;
+    backdrop-filter: blur(1000px);
 }
 .logo {
     position: absolute;
