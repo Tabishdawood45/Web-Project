@@ -2,10 +2,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #0b0b27;
 }
-.login-container {
+.signup-container {
     max-width: 400px;
     margin: 100px auto;
-    padding: 20px;
+    padding: 10px 20px 40px 20px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -51,7 +51,7 @@ button:hover {
     text-decoration: none;
 }
 
-.signup{
+.login{
     position: absolute;
     margin: 10px;
     color: black;
