@@ -1,11 +1,5 @@
-/* Video background */
-body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
 
+<<<<<<< HEAD
 .videos-bg {
     position: absolute;
     top: 0;
@@ -38,6 +32,9 @@ video {
 }
 
 .login-button, .shop-button, .about-button, .home-button {
+=======
+.nav-button {
+>>>>>>> 66db50d1216108b32638e0c7e27e14fd9ec979b8
     background-color: #0e1626;
     color: #ffffff;
     padding: 6px 20px;
@@ -45,14 +42,5 @@ video {
     border-radius: 11px;
     cursor: pointer;
     backdrop-filter: blur(1000px);
-    text-decoration: none;
-}
-.logo {
-    position: absolute;
-    top: 18px;
-    left: 15px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #000000;
     text-decoration: none;
 }
