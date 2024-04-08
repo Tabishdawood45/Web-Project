@@ -30,7 +30,7 @@ video {
 /* Login, shop and logo */
 .buttons-container {
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 15px;
     display: flex;
     gap: 10px;
