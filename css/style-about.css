@@ -1,5 +1,24 @@
-header{
-    color: rgb(253, 252, 252);
+.nav-button {
+    background-color: #0e1626;
+    color: #ffffff;
+    padding: 6px 10px;
+    margin: 10px 5px 10px 5px;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    backdrop-filter: blur(1000px);
+    text-decoration: none;
+}
+
+.nav-item {
+    background-color: #0e1626;
+    color: #ffffff;
+    padding: 6px 15px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 11px;
+    cursor: pointer;
+    text-align: 
+    center;
 }
 
 h1{
@@ -57,28 +76,6 @@ p{
     height: auto;
 }
 
-
-.buttons-container {
-    /* background-color: #1a60ec; */
-   
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    display:flex;
-    gap: 20px;
-    list-style-type: none;
-}
-
-.login-button, .shop-button, .home-button {
-    background-color: #243350;
-    color: #ffffff;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    backdrop-filter: blur(1000px);
-    text-decoration: none;
-}
 
 @media screen and (max-width: 745px) {
     .about-image{

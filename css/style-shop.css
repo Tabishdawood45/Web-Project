@@ -83,25 +83,29 @@ body {
     cursor: pointer;
 }
 
-.buttons-container {
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    display: flex;
-    gap: 10px;
-    list-style-type: none;
-}
-
-.login-button, .shop-button, .about-button, .home-button {
+.nav-button {
     background-color: #0e1626;
     color: #ffffff;
-    padding: 6px 20px;
+    padding: 6px 10px;
+    margin: 10px 5px 10px 5px;
     border: none;
     border-radius: 11px;
     cursor: pointer;
     backdrop-filter: blur(1000px);
     text-decoration: none;
 }
+
+.nav-item {
+    background-color: #0e1626;
+    color: #ffffff;
+    padding: 6px 15px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 11px;
+    cursor: pointer;
+    text-align: 
+    center;
+}
+
 .logo {
     position: absolute;
     top: 18px;
