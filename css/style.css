@@ -1,46 +1,21 @@
-
-<<<<<<< HEAD
-.videos-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-video {
-    position: relative;
-    top: 30px;
-    left: 30px;
-    right: 30px;
-    width: 95%;
-    height: 95%;
-    object-fit: cover;
-    z-index: -1;
-    margin-bottom: 100px;
-    padding: 0px 0px 200px 0px;
-}
-
-/* Login, shop and logo */
-.buttons-container {
-    position: absolute;
-    top: 30px;
-    right: 15px;
-    display: flex;
-    gap: 10px;
-    list-style-type: none;
-}
-
-.login-button, .shop-button, .about-button, .home-button {
-=======
 .nav-button {
->>>>>>> 66db50d1216108b32638e0c7e27e14fd9ec979b8
     background-color: #0e1626;
     color: #ffffff;
-    padding: 6px 20px;
+    padding: 6px 10px;
+    margin: 10px 5px 10px 5px;
     border: none;
     border-radius: 11px;
     cursor: pointer;
     backdrop-filter: blur(1000px);
     text-decoration: none;
+}
+
+.nav-item {
+    background-color: #0e1626;
+    color: #ffffff;
+    padding: 6px 15px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 11px;
+    cursor: pointer;
+    text-align: center;
 }
