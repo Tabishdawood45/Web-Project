@@ -3,7 +3,12 @@ class User {
     #email = undefined
 
     constructor() {
-
+        const userFromStorage = sessionStorage.getItem('user');
+        if (userFromStorage) {
+            const userObject = JSON.parse(userFromStorage);
+            this.#id = userObject.id
+            this.#email = userObject.email
+        }
     }
 
     get id() {
@@ -23,13 +28,15 @@ class User {
         })
         if (response.ok === true) {
             const json = await response.json()
-            console.log(json)
+            this.#id = json.id
+            this.#email = json.email
+            sessionStorage.setItem('user', JSON.stringify(json))
+            return this
         } else {
             throw response.statusText
         }
     }
 }
-
 
 
 export {User}
