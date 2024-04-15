@@ -1,4 +1,27 @@
-body {
+.nav-button {
+    background-color: #0e1626;
+    color: #ffffff;
+    padding: 6px 10px;
+    margin: 10px 5px 10px 5px;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    backdrop-filter: blur(1000px);
+    text-decoration: none;
+}
+
+.nav-item {
+    background-color: #0e1626;
+    color: #ffffff;
+    padding: 6px 15px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 11px;
+    cursor: pointer;
+    text-align: 
+    center;
+}
+
+.body {
     font-family: Arial, sans-serif;
     background-color: #0c0d2c;
 }
@@ -83,31 +106,3 @@ body {
     cursor: pointer;
 }
 
-.buttons-container {
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    display: flex;
-    gap: 10px;
-    list-style-type: none;
-}
-
-.login-button, .shop-button, .about-button, .home-button {
-    background-color: #0e1626;
-    color: #ffffff;
-    padding: 6px 20px;
-    border: none;
-    border-radius: 11px;
-    cursor: pointer;
-    backdrop-filter: blur(1000px);
-    text-decoration: none;
-}
-.logo {
-    position: absolute;
-    top: 18px;
-    left: 15px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-}
