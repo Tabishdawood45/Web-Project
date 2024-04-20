@@ -1,3 +1,4 @@
+User
 .nav-button {
     background-color: #0e1626;
     color: #ffffff;
@@ -105,4 +106,14 @@
     border-radius: 3px;
     cursor: pointer;
 }
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
+    padding: 20px; 
+}
+
+
+
 
