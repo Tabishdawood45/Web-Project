@@ -31,10 +31,11 @@
 
 .text-box{
     width: 100%;
-    background: gray;
+    background: rgb(196, 194, 194);
     padding: 5%;
     margin-bottom: 5%;
     border-radius: 10px;
+    font-style: oblique;
 }
 
 .card-group{
