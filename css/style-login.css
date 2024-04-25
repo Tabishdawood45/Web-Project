@@ -18,7 +18,7 @@ input[type="text"], input[type="password"] {
     border-radius: 5px;
     box-sizing: border-box;
 }
-button {
+.button {
     width: 100%;
     background-color: #5a4aec;
     color: rgb(255, 255, 255);
@@ -27,7 +27,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-button:hover {
+.button:hover {
     background-color: #038855;
 }
 
@@ -62,3 +62,9 @@ button:hover {
     text-decoration: none;
 }
 
+.hero{
+    background-color: #04041b;
+    background-image: url("/image and vid/webtest1.jpg");
+    background-size: fill;
+    background-position: center;
+}
