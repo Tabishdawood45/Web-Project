@@ -8,7 +8,6 @@
     cursor: pointer;
     backdrop-filter: blur(1000px);
     text-decoration: none;
-
 }
 
 .nav-item {
@@ -68,6 +67,8 @@
     border-radius: 10px;
     font-size: 18px;
     border-color: #ffffff;
+    color: #000000;
+    background-color: #f1f1f1;
 }
 
 .form-floating{
@@ -81,5 +82,6 @@
 
 .info{
     padding: 10px;
+    margin: 0px 10px 0px 10px;
 }
 

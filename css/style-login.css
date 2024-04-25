@@ -5,7 +5,7 @@ body {
 .login-container {
     max-width: 400px;
     margin: 100px auto;
-    padding: 10px 20px 40px 20px;
+    padding: 10px 20px 20px 20px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -14,21 +14,22 @@ input[type="text"], input[type="password"] {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
-    border: 1px solid #0d00c5;
+    border: 1px solid #000000;
     border-radius: 5px;
     box-sizing: border-box;
 }
 .button {
     width: 100%;
-    background-color: #5a4aec;
+    background-color: #000000;
     color: rgb(255, 255, 255);
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
 }
 .button:hover {
-    background-color: #038855;
+    background-color: #414040;
 }
 
 .nav-button {
@@ -54,13 +55,6 @@ input[type="text"], input[type="password"] {
     center;
 }
 
-
-.signup{
-    position: absolute;
-    margin: 10px;
-    color: black;
-    text-decoration: none;
-}
 
 .hero{
     background-color: #04041b;
