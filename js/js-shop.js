@@ -7,28 +7,28 @@ let shopItemsData = [{
     id: "1",
     name: "SCULPT ZIP THROUGH JACKET",
     price: 35,
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+    description: "Women's Sculpt Zip Up Training Jacket BLACK",
     img: "images/sport clothes1.jpg"
 },
 {
     id: "2",
     name: "WORKOUT GYM-SHIRT",
     price: 20,
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+    description: "MEN & WOMEN SEAMLESS T-SHIRT",
     img: "images/sport clothes 2.jpg"
 },
 {
     id: "3",
     name: "HEVYWEIGHT HOODY",
     price: 40,
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+    description: "Men's Wintertrainer HevyWeight Hoody",
     img: "images/sport clothes 3.jpg"
 },
 {
     id: "4",
     name: "OUTDOOR SPORT SUIT",
     price: 90,
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+    description: "Breathable SPORTS SUIT FOR MEN & WOMEN",
     img: "images/sport clothes 4.jpg"
 }]
 
@@ -55,7 +55,7 @@ let generateShop = () => {
 
 let increment = (id) => {
     let selectedItem = id
-    let search = basket.find((items)=> items.id === selectedItem.id);
+    let search = basket.find((items)=> items.id === id);
     if(search === undefined) {
         basket.push({
         id: selectedItem.id,
