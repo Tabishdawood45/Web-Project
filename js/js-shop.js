@@ -26,7 +26,7 @@ let generateShop = () => {
 
 let increment = (id) => {
     let selectedItem = id
-    let search = basket.find((items)=> items.id === selectedItem.id);
+    let search = basket.find((items)=> items.id === id);
     if(search === undefined) {
         basket.push({
         id: selectedItem.id,
