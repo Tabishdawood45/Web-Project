@@ -27,6 +27,8 @@
     font-weight: bold;
     color: #000000;
     font-style: italic;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .text-box{
