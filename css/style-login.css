@@ -62,3 +62,10 @@ input[type="text"], input[type="password"] {
     background-size: fill;
     background-position: center;
 }
+
+.link{
+    text-decoration: none;
+    color: #000000;
+    margin: 5px;
+    padding: 5px;
+}
